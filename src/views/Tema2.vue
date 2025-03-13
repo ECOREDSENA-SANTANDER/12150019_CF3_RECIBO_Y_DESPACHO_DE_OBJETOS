@@ -7,6 +7,12 @@
         span 2
       h1 Tema 2
 
+
+    .row.bgc-1.align-items-center.p-4.py-5.p-lg-5(data-aos="fade-down")
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.justify-content-center.align-items-center
+
+        
 </template>
 
 <script>

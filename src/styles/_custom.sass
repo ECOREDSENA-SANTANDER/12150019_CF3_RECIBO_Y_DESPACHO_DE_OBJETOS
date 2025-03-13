@@ -1,33 +1,72 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 76%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    width: 92px
+    animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
-
+    top: 57%
+    right: 16%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
-    transform: translateY(0px)
-  
-  
+    transform: translateY(0px) 
 .banner-principal .tarjeta
   background-position: left 50% !important
-
 .banner-principal__row .banner-principal__img
   width: 400px !important  
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/mini-portada.png") !important
+  background-repeat: no-repeat
 
 figcaption
   font-weight: normal
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem 
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario       
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.w-fit
+  width: fit-content
+
+
+.bgc-1
+  background-image: url('../assets/curso/temas/intro/bg1.png')
+  background-position: top
+  background-size: 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgc-2
+  //background-image: url('../assets/curso/temas/t3/bg1.svg')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
  

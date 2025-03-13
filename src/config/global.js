@@ -1,12 +1,13 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Exploración de movimientos de mercancías: ingreso y salida',
+    Description:
+      'Los registros de ingreso y salida de mercancías son fundamentales para la programación de despachos, la solicitud de productos y la gestión de inventarios, estos registros, ya sean manuales o digitales, deben seguir un procedimiento establecido y ser confiables, ya que sirven como base para negociaciones comerciales. Para realizar un registro adecuado, es necesario contar con documentos que proporcionen la información completa para su correcta diligencia y procesamiento.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-1'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
@@ -31,27 +32,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Documentación, recibo y despacho de objetos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Políticas de ingreso y salida de objetos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Registro de ingreso y salida',
         desarrolloContenidos: true,
       },
     ],
@@ -102,22 +95,133 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
+      tema:
+        'Diseño del sistema de gestión por procesos para la empresa diseño, ingeniería, automatización y control dinacol S.A.S. ',
+      referencia:
+        'Pineda, G. R., & Burbano Ortiz, A. M. (2018). Diseño del sistema de gestión por procesos para la empresa Diseño, Ingeniería, Automatización y Control Dinacol S.A.S. [Archivo PDF]. Universidad del Valle.  ',
+      tipo: 'PDF',
+      link:
+        'https://bibliotecadigital.univalle.edu.co/server/api/core/bitstreams/f7b65f9f-8715-4d42-8205-a560ba01cb54/content',
+    },
+    {
+      tema:
+        'Todo lo que debes saber de la logística de entregas y sus procesos. ',
+      referencia:
+        'Lo que debes saber de la logística de entregas y sus procesos. (2022, 29 marzo). QuadMinds. ',
+      tipo: 'Blog',
+      link: 'https://www.quadminds.com/blog/logistica-de-entregas/',
+    },
+    {
+      tema: 'Recibo y despacho mercancías panamericana.wmv.',
+      referencia:
+        'Nasly Yuranny. (2012, 17 noviembre). Recibo y despacho mercancías panamericana.wmv.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=YbhPkUFcyg4',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Cantidad',
+      significado:
+        'número o volumen de unidades de un producto u objeto solicitado, adquirido o registrado. En la requisición o en los inventarios, la cantidad específica cuántas unidades de un artículo se requieren o se tienen disponibles. ',
+    },
+    {
+      termino: 'Control',
+      significado:
+        'acción de supervisar, verificar y gestionar los procesos o movimientos de productos, mercancías o actividades dentro de una organización.  ',
+    },
+    {
+      termino: 'Datos',
+      significado:
+        'conjunto de hechos, cifras o información que se recopilan y se utilizan para un propósito específico. ',
+    },
+    {
+      termino: 'Diligenciamiento ',
+      significado:
+        'acción de completar correctamente los documentos necesarios para los procesos de recibo y despacho. ',
+    },
+    {
+      termino: 'Documentación',
+      significado:
+        'proceso continuo de formación del personal para asegurar que esté preparado para brindar una atención adecuada y resolver eficazmente quejas y reclamos. ',
+    },
+    {
+      termino: 'Condiciones',
+      significado:
+        'términos establecidos entre las partes, como precio, plazo de entrega, y forma de pago, que deben quedar claros en el acuerdo. ',
+    },
+    {
+      termino: 'Devoluciones',
+      significado:
+        'proceso mediante el cual un cliente regresa un producto adquirido, generalmente debido a insatisfacción o error en la compra. ',
+    },
+    {
+      termino: 'Documentación',
+      significado:
+        'conjunto de documentos utilizados para registrar los movimientos de mercancías en los procesos de recepción y despacho. ',
+    },
+    {
+      termino: 'Factura',
+      significado:
+        'documento que detalla la venta de productos o servicios, incluyendo cantidades, precios y condiciones de pago. Es un documento clave para el registro de transacciones comerciales. ',
+    },
+    {
+      termino: 'Fecha',
+      significado:
+        'día en que se realiza una solicitud o un movimiento de mercancías.',
+    },
+    {
+      termino: 'Inventario',
+      significado:
+        'registro detallado de los bienes y productos disponibles en una organización, utilizado para llevar un control de existencias y gestionar reabastecimientos. ',
+    },
+    {
+      termino: 'Gestión de inventarios',
+      significado:
+        'proceso de controlar y actualizar el inventario de productos dentro de la organización. ',
+    },
+    {
+      termino: 'Movimiento de mercancías',
+      significado:
+        'acción de ingresar o sacar productos de un almacén o inventario. ',
+    },
+    {
+      termino: 'Requisición',
+      significado:
+        'documento interno utilizado para solicitar productos, materiales o la transferencia de mercancías dentro de la empresa. ',
+    },
+    {
+      termino: 'Solicitante',
+      significado:
+        'persona o departamento que realiza una requisición para solicitar productos u objetos dentro de la organización. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Monforte, E. (2024, 16 julio). Tipos de factura: en qué se diferencian, clasificación y ejemplos. Camerfirma.  ',
+      link:
+        'https://www.camerfirma.com/tipos-de-factura-en-que-se-diferencian-clasificacion-y-ejemplos/',
+    },
+    {
+      referencia: 'Definición de nota de remisión. (s. f.). Significado.com.  ',
+      link: 'https://significado.com/nota-de-remision/',
+    },
+    {
+      referencia:
+        'SODIMAC COLOMBIA. (2021). Manual de entrega de Mercancía Sodimac.',
+      link:
+        'https://www.homecenter.com.co/static/landing/footer/docs/manual-recibo-de-mercancia-integral-Sodimac-2020.pdf',
+    },
+    {
+      referencia:
+        'Gestiopolis, E. (2002). ¿Qué es una orden de compra? Gestiopolis.com. ',
+      link: 'https://www.gestiopolis.com/que-es-una-orden-de-compra/',
+    },
+    {
+      referencia:
+        'Pazan Toledo, T. M. (2015). Diseño de modelo de reingeniería al control de inventario y manejo de bodega aplicado a la corporación Farmasocio. Tesis, Universidad del Azuay, Ecuador. Recuperado el 27 de noviembre de 2016 en ',
+      link: 'http://dspace.uazuay.edu.ec/bitstream/datos/5026/1/11465.pdf',
     },
   ],
   creditos: [
@@ -125,14 +229,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -140,9 +244,20 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ingrid Criollo García',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Comercio y Servicio - Regional Tolima',
+        },
+        {
+          nombre: 'Luisa Patricia Juvinao',
+          cargo: 'Equipo de diseño curricular',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,19 +265,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñadora de Contenidos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>full stack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: '',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -170,14 +285,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: '',
           cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: '',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
