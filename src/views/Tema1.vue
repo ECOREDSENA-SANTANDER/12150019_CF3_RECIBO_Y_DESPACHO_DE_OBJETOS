@@ -5,545 +5,331 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Titulo de primer nivel
+        h1 Documentación, recibo y despacho de objetos
         
-
-      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        div(titulo="Titulo item 2")
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-
-
-
-      Separador
-
-      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(titulo="Titulo item 2")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      ImagenInfografica.color-primario
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-        .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      Separador
-
-      ImagenInfograficaB.color-primario
-        template(v-slot:imagen)
-          figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-          h5 titulo
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-          h5.mb-2 titulo
-          p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      Separador
-
-
-      TarjetaAudio.color-primario.mb-3(
-        texto="Texto de muestra  "
-        :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-      )
-        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      TarjetaAudio.color-secundario.mb-3(
-        texto="Texto de muestra <br> Texto de muestra "
-        :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-      )
-
-      Separador
-
-
-      .tarjeta.tarjeta--azul.p-4
-        SlyderA(tipo="b")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-          .row.justify-content-center.align-items-center.my-lg-4
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      .tarjeta.tarjeta--gris.p-4
-        PasosB.color-acento-contenido
-          .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-          .row(titulo="")
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-
-      Separador
-
-      .tarjeta.tarjeta--gris.p-4
-        LineaTiempoC.color-acento-contenido(text-small)
-          .row(titulo="Titulo 1")
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-
-          .row(titulo="Titulo 2")
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      SlyderF(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center FIRST
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 2
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 3
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 4
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 5
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 6
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 7
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center LAST
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-            
-      Separador
-
-      LineaTiempoD.color-primario
-        .row(numero="1" titulo="Praesent luctus")
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(numero="2" titulo="Praesent luctus")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.  
-
-        .row(numero="3" titulo="Praesent luctus")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-
-
-      Separador
-
-      TabsA.color-acento-botones
-        .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-          h4 PASO 1: The splendor
-          p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-            strong user style sheets
-            |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-        .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-          h4 PASO 2: The splendor
-          .row
-            .col-xl-6.mb-4
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-xl-6
-              p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-                strong user style sheets
-                |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-
-      TabsC.color-primario
-        .py-3.py-md-4(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-5
+          img(src='@/assets/curso/temas/t1/1.png', alt='')
+        .col-lg-7
+          img.d-none.d-lg-block.w-80(src='@/assets/curso/temas/t1/2.svg', alt='')
+          p La documentación en los procesos de recibo y despacho, así como su adecuado diligenciamiento, es fundamental para el control de las mercancías que ingresan y se entregan entre departamentos, áreas o dentro de la misma organización. Existen diversos formatos que pueden utilizarse para el manejo y registro de esta información, algunos de los cuales se detallan a continuación.
           
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-        .py-3.py-md-4(titulo="Don’t lie to yourself")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6
-              h4 Celebrate your failures 2
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
+      .row.align-items-center.mb-5.subt(data-aos="fade-right")
+        .col-auto.ico
+          img(src='@/assets/curso/temas/t2/subt.svg', alt='')
+        .col
+          h3.mb-0.p-1.px-3 Tipos de documentación
 
+      .subt-2.px-5.py-1.mb-4(data-aos='fade')
+        h4.mb-0 Requisiciones
 
-      Separador
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-md-2.col-4.mb-3.mb-lg-0(data-aos="fade-right")
+          img(src='@/assets/curso/temas/t1/3.svg', alt='')
+        .col-lg-11.col-md-10(data-aos="fade-left")
+          p.mb-0 La requisición es un documento interno utilizado dentro de la empresa para solicitar, por escrito, la adquisición de productos u objetos, este documento puede emplearse entre diferentes áreas, por ejemplo, para el traslado de mercancías de un lugar a otro, o para solicitar al departamento de compras la gestión de adquisición de bienes. 
+      
+      .bg3.p-4.py-5.mb-4(data-aos='fade-down')
+        p.fw-bold La requisición debe incluir la siguiente información:
+        .row.justify-content-center.align-items-center
+          .col-lg-5
+            ul.lista-ul--color.fa-lista
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Fecha:] día en que se realiza la solicitud.
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Datos del solicitante:] departamento o área de la empresa, así como el nombre de la persona que solicita el producto u objeto.
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Número de requisición:] número único asignado a la solicitud para su seguimiento.
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Descripción del material:] especificaciones técnicas exactas del artículo solicitado, incluyendo la unidad de medida y, si corresponde, su código o referencia de identificación.
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Cantidad requerida:] número de unidades solicitadas.
+              li.mb-1
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Datos adicionales:] posibles proveedores, en caso de que la requisición se haga al departamento de compras para la adquisición del producto.
+              li.mb-0 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Nombre y firma del solicitante:] para validar la solicitud.
+          .col-lg-4.d-none.d-lg-block
+            img(src='@/assets/curso/temas/t1/4.png', alt='')
+          .col-lg-3
+            p.mb-0 En algunas organizaciones, los formatos de requisición tienen un diseño preestablecido y numerado, el cual se asigna a los departamentos para asegurar el control y registro de la información; si la mercancía o el objeto solicitado está disponible, la entrega puede realizarse utilizando el mismo formato, registrándose en el sistema o en el proceso de inventarios que se utilice.
 
+      .row.justify-content-evenly.mb-5
+        .col-lg-4(data-aos='fade-right')
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 1.
+            span Formato de requisición de materiales
+          figure
+            img(src='@/assets/curso/temas/t1/fig1.png', alt='Formulario de requisición de materiales con campos para información de la empresa, número de requisición, fecha, orden de producción, tipo de material, cantidad, valor unitario y total.')
+        .col-lg-5(data-aos='fade-left')
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 2.
+            span Formato de requisición de materiales para construcción
+          figure
+            img.w-75(src='@/assets/curso/temas/t1/fig2.png', alt='Formulario de requisición de materiales para construcción con campos para información de la empresa, número de requisición, fecha, datos del solicitante, materiales solicitados, cantidades y costos.')
 
-      TabsB.color-primario
-        .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-        .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6
-              h4 Celebrate your failures 2
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .subt-2.px-5.py-1.mb-4(data-aos='fade')
+        h4.mb-0 Orden de Compra o Pedido
 
-      Separador
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-md-2.col-4.mb-3.mb-lg-0(data-aos="fade-right")
+          img(src='@/assets/curso/temas/t1/3.svg', alt='')
+        .col-lg-11.col-md-10(data-aos="fade-left")
+          p.mb-0 La orden de compra o pedido es el documento mediante el cual una empresa solicita materiales o mercancías a sus proveedores para satisfacer una necesidad específica. Este documento debe contener, como mínimo, la siguiente información:
+      
+      .row.align-items-center.mb-5(data-aos='fade-down')
+        .col-lg-8.bg3
+          ul.lista-ul--color.fa-lista.p-4.mb-0
+            li.mb-1 
+              i.fas.fa-map-marker-alt
+              span.mb-0 #[b Fecha:] día en que se realiza la solicitud del pedido.
+            li.mb-1 
+              i.fas.fa-map-marker-alt
+              span.mb-0 #[b Datos comerciales del comprador:] nombre o razón social de la empresa, solicitante, NIT o RUT, dirección, teléfono y nombre de la persona responsable de la solicitud.
+            li.mb-1 
+              i.fas.fa-map-marker-alt
+              span.mb-0 #[b Datos comerciales del proveedor:] nombre o razón social del proveedor, NIT o RUT, dirección, teléfono y nombre de la persona encargada de recibir la solicitud y gestionar el proceso.
+            li.mb-1 
+              i.fas.fa-map-marker-alt
+              span.mb-0 #[b Especificaciones:] detalle del producto, incluyendo tipo, unidad de empaque o presentación, cantidad solicitada, valor unitario y valor total.
+            li.mb-1 
+              i.fas.fa-map-marker-alt
+              span.mb-0 #[b Condiciones comerciales:] plazos y condiciones de entrega, forma de pago, plazos de pago y firma autorizada.
+            li.mb-0
+              i.fas.fa-map-marker-alt
+              span.mb-0 #[b Datos adicionales:] lugar de entrega y contactos para coordinar la programación de la entrega, especialmente en caso de que la organización cuente con un proceso planificado para el recibo de mercancía.
+        .col-lg-4.bg-white
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 3.
+            span Formato orden de compra
+          figure
+            img(src='@/assets/curso/temas/t1/fig3.png', alt='Formulario de requisición de materiales para construcción con campos para información de la empresa, número de requisición, fecha, datos del solicitante, materiales solicitados, cantidades y costos.')
 
+      .subt-2.px-5.py-1.mb-4(data-aos='fade')
+        h4.mb-0 Factura comercial
 
+      .row.justify-content-center.mb-5
+        .col-lg-4(data-aos="fade-right")
+          img(src='@/assets/curso/temas/t1/5.png', alt='')
+        .col-lg-8(data-aos="fade-left")
+          p La factura comercial es un documento contable emitido por el vendedor en el momento de la adquisición de la mercancía, aunque no existe un formato obligatorio específico, cada empresa tiene la libertad de diseñarla según sus necesidades, siempre y cuando incluya ciertos datos esenciales, entre ellos se destacan: la fecha de la operación comercial y la fecha de vencimiento del pago; el número de la orden de compra, que permite controlar y registrar la transacción; los datos comerciales tanto del vendedor como del comprador, que incluyen nombre o razón social, NIT o RUT, dirección y teléfono; la información detallada de los productos, que incluye descripción, referencia o código interno, cantidad solicitada, valor unitario y total; la forma y condiciones de pago, especificando si el pago es en efectivo, a crédito o contra entrega; y la forma de entrega, que puede ser en las instalaciones del cliente, recogida por el cliente o envío por mensajería o transportadora. 
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-9
+              p También es obligatorio incluir el valor del impuesto sobre las ventas (IVA), con una casilla correspondiente para determinar dicho valor. En Colombia, además, es necesario que la numeración de la factura esté autorizada por la DIAN (Dirección de Impuestos y Aduanas Nacionales), por último, debe figurar el nombre o razón social y NIT de la persona que emite la factura, así como la indicación sobre la calidad de retenedor del impuesto sobre las ventas, si corresponde.
+            .col-lg-3
+              img(src='@/assets/curso/temas/t1/6.svg', alt='')
 
-      LineaTiempoE.color-primario
-        .row(titulo="2014 - Present" subtitulo="Title, Company")
-          .col-lg-6.mb-4.mb-lg-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-lg-6
+      .row.justify-content-evenly.mb-5
+        .col-lg-4(data-aos='fade-right')
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 4.
+            span Factura comercial
+          figure
+            img(src='@/assets/curso/temas/t1/fig4.png', alt='Factura comercial con detalles de la compra, incluyendo descripción de los artículos, cantidades, precios unitarios e importes.')
+        .col-lg-4(data-aos='fade-left')
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 5.
+            span Modelo de factura comercial
+          figure
+            img(src='@/assets/curso/temas/t1/fig5.png', alt='Modelo de factura comercial con campos para información de la empresa, cliente, descripción de productos, precios y totales.')
+
+      .subt-2.px-5.py-1.mb-4(data-aos='fade')
+        h4.mb-0 Remisión
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-md-2.col-4.mb-3.mb-lg-0(data-aos="fade-right")
+          img(src='@/assets/curso/temas/t1/3.svg', alt='')
+        .col-lg-11.col-md-10(data-aos="fade-left")
+          p.mb-0 La remisión es un documento utilizado para entregar mercancía de forma parcial y sirve como constancia cuando se solicitan entregas fraccionadas de productos, la persona o empresa encargada de entregar la mercancía debe asegurarse de que el receptor firme el documento para que tenga validez, de lo contrario, no será considerado como parte del registro de la entrega.
+
+      .bg3.p-4.mb-4(data-aos='fade-down')
+        .row.justify-content-center
+          .col-lg-5
+            p.fw-bold La remisión o nota de remisión debe incluir la siguiente información en el caso de ser una entrega interna:
+            ul.lista-ul--color.fa-lista
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Fecha de entrega:] fecha en la que se realiza la entrega de la mercancía.
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Área que entrega:] nombre de la persona o área responsable de la entrega.
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Área que recibe:] nombre de la persona o área que recibe la mercancía.
+              li.mb-0 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Referencia y cantidad de producto entregado:] detalle específico de los productos entregados, con sus respectivas cantidades.
+          .col-lg-3
+            img(src='@/assets/curso/temas/t1/7.svg', alt='')
+          .col-lg-4
+            p.fw-bold Si es externa:
+            ul.lista-ul--color.fa-lista
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Datos del proveedor:] nombre de la empresa y NIT. 
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Datos del cliente:] nombre de la empresa y NIT.
+              li.mb-1 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Información:] referencia del producto y cantidad.
+              li.mb-0 
+                i.fas.fa-map-marker-alt
+                span.mb-0 #[b Fecha de entrega del producto.] 
+            p.mb-0 No es obligatorio que el documento incluya el logo de la empresa; la decisión de utilizar formatos específicos queda a criterio de la empresa, lo fundamental es que, durante la negociación, se establezcan claramente las condiciones de entrega y que el documento cuente con las firmas y sellos correspondientes para que sea válido.
+
+      .row.justify-content-evenly.mb-5
+        .col-lg-4(data-aos='fade-right')
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 6.
+            span Orden de remisión
+          figure
+            img(src='@/assets/curso/temas/t1/fig6.png', alt='Formulario de orden de remisión con campos para información del remitente, destinatario, descripción de los artículos y firmas.')
+        .col-lg-4(data-aos='fade-left')
+          .titulo-sexto.color-acento-contenido.mb-0
+            h5 Figura 7.
+            span Nota de remisión
+          figure
+            img(src='@/assets/curso/temas/t1/fig7.png', alt='Formulario de nota de remisión duplicado con campos para información del remitente, destinatario, descripción de los artículos, precios y firmas.')
+
+      .subt-2.px-5.py-1.mb-4(data-aos='fade')
+        h4.mb-0 Listado de #[em Picking]
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-md-2.col-4.mb-3.mb-lg-0(data-aos="fade-right")
+          img(src='@/assets/curso/temas/t1/3.svg', alt='')
+        .col-lg-11.col-md-10(data-aos="fade-left")
+          p.mb-0 El #[em picking] es el proceso de selección y preparación de las unidades que serán despachadas, el listado de picking es un documento que detalla las ubicaciones y las cantidades de las referencias que deben ser alistadas para su posterior despacho, una vez que se cuenta con este listado, se procede a recoger los productos para trasladarlos a la zona de consolidación.
+
+      .row.d-flex.mb-5(data-aos="fade-down")
+        .col-lg-4
+          .bg-sub.h-100.align-items-center.d-flex
+            img(src='@/assets/curso/temas/t1/8.png', alt='')
+        .col-lg-4.ps-lg-0
+          .bg3.h-100
+            ul.lista-ul--color.color-primario.fa-lista.p-3.p-lg-4.mb-0
+              li.mb-1
+                i.fas.fa-map-marker-alt
+                span.mb-0 Permite automatizar o sistematizar los procesos de alistamiento, mejorando la eficiencia.
+              li.mb-1
+                i.fas.fa-map-marker-alt
+                span.mb-0 Reduce los costos de alistamiento y, en general, los costos logísticos, optimizando los recursos.
+              li.mb-1
+                i.fas.fa-map-marker-alt
+                span.mb-0 Minimiza los errores en los inventarios, ya que, con el uso de herramientas tecnológicas, al retirar un producto del almacenamiento se actualiza automáticamente el inventario.
+              li.mb-0
+                i.fas.fa-map-marker-alt
+                span.mb-0 Facilita el alistamiento de pedidos realizados a través de internet, optimizando el proceso de preparación y despacho.
+        .col-lg-4
+          .bg-white.h-100
+            .titulo-sexto.color-acento-contenido.mb-1
+              h5 Figura 8.
+              span Listado de #[em Picking]
             figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(titulo="2014 - Present" subtitulo="Title, Company")
-          .col-lg-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen      
-          .col-lg-6.mb-4.mb-lg-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+              img(src='@/assets/curso/temas/t1/fig8.png', alt='Listado de picking con detalles de ubicación, artículos, descripciones, lotes, cantidades y bultos.')
 
 
-      Separador
+      .subt-2.px-5.py-1.mb-4(data-aos='fade')
+        h4.mb-0 Registro de devolución
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-1.col-md-2.col-4.mb-3.mb-lg-0(data-aos="fade-right")
+          img(src='@/assets/curso/temas/t1/3.svg', alt='')
+        .col-lg-11.col-md-10(data-aos="fade-left")
+          p.mb-0 El registro de devolución es el proceso mediante el cual se documenta la información relacionada con las mercancías que los clientes devuelven, este registro debe ir acompañado de un informe detallado que explique las razones por las cuales se realiza la devolución de los productos. El proceso de registro se lleva a cabo de la siguiente manera:
 
-      PasosA.color-primario.mb-5(tipo="n")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Lorem ipsum dolor sit amet.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
+      .row.justify-content-center.mb-5
+        .col-lg-9(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-acento-contenido")
+            .row.justify-content-center(titulo="Crear una orden de devolución")
+              .col-lg-11
+                p Al generar esta orden, la persona encargada de recibir la mercancía permite que se actualice el inventario, reflejando el ingreso del producto, sin embargo, el artículo se mantiene inhabilitado hasta que el departamento de calidad revise las razones de la devolución.
+            .row.justify-content-center(titulo="Dejar una nota adicional")
+              .col-lg-11
+                p En la orden debe indicarse que, dependiendo de lo acordado en la negociación, se debe restituir el dinero al cliente (si pagó previamente) o cambiar el producto si así lo prefiere.
+            .row.justify-content-center(titulo="Entregar el documento soporte de la devolución")
+              .col-lg-11
+                p Se debe proporcionar al cliente el documento que respalda la devolución, asegurando la validez del proceso.
+            .row.justify-content-center(titulo="Realizar un análisis de las mercancías devueltas")
+              .col-lg-11
+                p El departamento de calidad debe llevar a cabo un análisis detallado de los productos devueltos para determinar el proceso a seguir, ya sea de reposición, reparación o disposición.
+            .row.justify-content-center(titulo="Liquidar la devolución")
+              .col-lg-11
+                p una vez completados los pasos anteriores, se procede a realizar la liquidación de la devolución, asegurando que todo esté debidamente registrado y procesado.
+        .col-lg-3(data-aos="fade-left")
+          img(src='@/assets/curso/temas/t1/9.png', alt='')
 
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la Imagen
-          .col-md-6
-            h3 Nullam vulputate mauris eros, ut.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-            
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Duis laoreet est non ligula.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Duis laoreet est non ligula.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-
-      Separador
-
-      p(data-aos="fade-left").mb-4 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      .row
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-7
+      .row.justify-content-center.mb-5(data-aos="fade-down")
+        .col-lg-10
+          .bg1.tarjeta.p-4
+            .row.justify-content-center.align-items-center
+              .col-lg-6
+                .titulo-sexto.color-acento-contenido.mb-2
+                  h5 Figura 9. 
+                  span Devoluciones de compra 
                 figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.color-secundario.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0
-          .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-        .col-sm-6.col-lg-3
-          .tarjeta--boton.color-acento-botones.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+                  img(src='@/assets/curso/temas/t1/fig9.png', alt='Informe de devoluciones de compra con detalles de proveedores, obras, artículos, cantidades y montos.')  
+              .col-lg-6
+                img.w-90.mb-2(src='@/assets/curso/temas/t1/10.svg', alt='')
+                p La devolución de mercancías es un proceso que requiere gran cuidado y precisión, y es responsabilidad de quien la recibe; un error en este proceso puede generar inconvenientes en el inventario y, aún más grave, errores contables que alteren los estados financieros de la empresa.
 
 
-      Separador
+      .subt-2.px-5.py-1.mb-4(data-aos='fade')
+        h4.mb-0 Orden de salida
 
+      .row.justify-content-center.mb-4
+        .col-lg-8(data-aos="fade-right")
+          .row.justify-content-center.align-items-center.mb-3.mb-lg-2
+            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+              img.m-auto.w-75(src='@/assets/curso/temas/t1/11.svg', alt='')
+            .col-lg-10.col-md-10
+              p.mb-0 Documento que permite el registro de la salida de la mercancía que va a ser despachada ya sea interna o externamente. La información que hace parte de la orden de salida es:
+          ul.lista-ul--color.color-primario.fa-lista.mb-0
+            li.mb-1
+              i.fas.fa-map-marker-alt
+              span.mb-0 #[b Identificación de la empresa:] nombre o razón social, NIT o RUT.
+            li.mb-1
+              i.fas.fa-map-marker-alt
+              span.mb-0 Fecha en la cual se realiza la salida.
+            li.mb-1
+              i.fas.fa-map-marker-alt
+              span.mb-0 Descripción del producto, código, unidad de medida, cantidad, valor unitario y valor total.
+            li.mb-1
+              i.fas.fa-map-marker-alt
+              span.mb-0 #[b Identificación del cliente:] nombre o razón social, NIT o RUT.
+            li.mb-1
+              i.fas.fa-map-marker-alt
+              span.mb-0 Identificación de quien recibe y entrega el objeto.
+            li.mb-1
+              i.fas.fa-map-marker-alt
+              span.mb-0 La orden de salida debe tener un número consecutivo.
+            li.mb-0
+              i.fas.fa-map-marker-alt
+              span.mb-0 Observaciones generales.
+        .col-lg-4(data-aos="fade-left")
+          img(src='@/assets/curso/temas/t1/12.png', alt='')
 
+      .row.justify-content-evenly.mb-5
+        .col-lg-4(data-aos='fade-right')
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 10.
+            span Formato orden de despacho
+          figure
+            img(src='@/assets/curso/temas/t1/fig10.png', alt='Orden de despacho de la empresa de transportes Segucar S.A. con detalles del destinatario, artículos despachados y datos del transportista.')
+        .col-lg-5(data-aos='fade-left')
+          .titulo-sexto.color-acento-contenido.mb-0
+            h5 Figura 11.
+            span Orden de salida 
+          figure
+            img(src='@/assets/curso/temas/t1/fig11.png', alt='Orden de salida de material con detalles del solicitante, destinatario, descripción del material y cantidades.')
 
-      .tarjeta--container.row.mb-5
-        .col-md.tarjeta.color-primario.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Celebrate your<br>failures
-          p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-        .col-md.tarjeta.color-acento-botones.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Sterility leads to<br>susceptibility
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-        .col-md.tarjeta.color-acento-contenido.text-white.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Sterility leads to<br>susceptibility
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-
-
-      Separador
-
-      .row
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, 
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-        .col-sm-6.col-xl-3.mb-4.mb-sm-0
-          .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-        .col-sm-6.col-xl-3
-          .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-
-      Separador
-      .row
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-primario.p-5
-            .tarjeta-numerada__numero
-              .h2 1
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-secundario.p-5
-            .tarjeta-numerada__numero
-              .h2 2
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido.p-5
-            .tarjeta-numerada__numero
-              .h2 3
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-botones.p-5
-            .tarjeta-numerada__numero
-              .h2 4
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas  
-  </template>
+</template>
 
 <script>
 export default {
