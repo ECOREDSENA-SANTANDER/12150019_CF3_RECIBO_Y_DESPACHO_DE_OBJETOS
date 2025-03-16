@@ -19,7 +19,7 @@
     h4(data-aos="fade-right") Características
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-md-5.col-10.mb-3.mb-lg-0(data-aos="fade-right")
+      .col-lg-4.col-md-5.col-10.mb-3.mb-lg-0.d-none.d-md-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/2.png', alt='')
       .col-lg-8.col-md-7(data-aos="fade-left")
         SlyderF.circl-arrow.shadow-tarj.mb-4(columnas="col-lg-6")

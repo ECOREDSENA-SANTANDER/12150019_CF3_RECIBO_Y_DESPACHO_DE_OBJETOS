@@ -61,13 +61,13 @@
             p.mb-0 En algunas organizaciones, los formatos de requisición tienen un diseño preestablecido y numerado, el cual se asigna a los departamentos para asegurar el control y registro de la información; si la mercancía o el objeto solicitado está disponible, la entrega puede realizarse utilizando el mismo formato, registrándose en el sistema o en el proceso de inventarios que se utilice.
 
       .row.justify-content-evenly.mb-5
-        .col-lg-4(data-aos='fade-right')
+        .col-lg-4.col-md-9(data-aos='fade-right')
           .titulo-sexto.color-acento-contenido
             h5 Figura 1.
             span Formato de requisición de materiales
           figure
             img(src='@/assets/curso/temas/t1/fig1.png', alt='Formulario de requisición de materiales con campos para información de la empresa, número de requisición, fecha, orden de producción, tipo de material, cantidad, valor unitario y total.')
-        .col-lg-5(data-aos='fade-left')
+        .col-lg-5.col-md-10(data-aos='fade-left')
           .titulo-sexto.color-acento-contenido
             h5 Figura 2.
             span Formato de requisición de materiales para construcción
@@ -83,8 +83,8 @@
         .col-lg-11.col-md-10(data-aos="fade-left")
           p.mb-0 La orden de compra o pedido es el documento mediante el cual una empresa solicita materiales o mercancías a sus proveedores para satisfacer una necesidad específica. Este documento debe contener, como mínimo, la siguiente información:
       
-      .row.align-items-center.mb-5(data-aos='fade-down')
-        .col-lg-8.bg3
+      .row.align-items-center.justify-content-center.mb-5(data-aos='fade-down')
+        .col-lg-8.bg3.mb-4.mb-lg-0
           ul.lista-ul--color.fa-lista.p-4.mb-0
             li.mb-1 
               i.fas.fa-map-marker-alt
@@ -104,7 +104,7 @@
             li.mb-0
               i.fas.fa-map-marker-alt
               span.mb-0 #[b Datos adicionales:] lugar de entrega y contactos para coordinar la programación de la entrega, especialmente en caso de que la organización cuente con un proceso planificado para el recibo de mercancía.
-        .col-lg-4.bg-white
+        .col-lg-4.col-md-9.bg-white
           .titulo-sexto.color-acento-contenido
             h5 Figura 3.
             span Formato orden de compra
@@ -114,26 +114,26 @@
       .subt-2.px-5.py-1.mb-4(data-aos='fade')
         h4.mb-0 Factura comercial
 
-      .row.justify-content-center.mb-5
-        .col-lg-4(data-aos="fade-right")
+      .row.justify-content-center.mb-4.mb-lg-5
+        .col-lg-4.d-none.d-lg-block(data-aos="fade-right")
           img(src='@/assets/curso/temas/t1/5.png', alt='')
         .col-lg-8(data-aos="fade-left")
           p La factura comercial es un documento contable emitido por el vendedor en el momento de la adquisición de la mercancía, aunque no existe un formato obligatorio específico, cada empresa tiene la libertad de diseñarla según sus necesidades, siempre y cuando incluya ciertos datos esenciales, entre ellos se destacan: la fecha de la operación comercial y la fecha de vencimiento del pago; el número de la orden de compra, que permite controlar y registrar la transacción; los datos comerciales tanto del vendedor como del comprador, que incluyen nombre o razón social, NIT o RUT, dirección y teléfono; la información detallada de los productos, que incluye descripción, referencia o código interno, cantidad solicitada, valor unitario y total; la forma y condiciones de pago, especificando si el pago es en efectivo, a crédito o contra entrega; y la forma de entrega, que puede ser en las instalaciones del cliente, recogida por el cliente o envío por mensajería o transportadora. 
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-9
               p También es obligatorio incluir el valor del impuesto sobre las ventas (IVA), con una casilla correspondiente para determinar dicho valor. En Colombia, además, es necesario que la numeración de la factura esté autorizada por la DIAN (Dirección de Impuestos y Aduanas Nacionales), por último, debe figurar el nombre o razón social y NIT de la persona que emite la factura, así como la indicación sobre la calidad de retenedor del impuesto sobre las ventas, si corresponde.
-            .col-lg-3
+            .col-lg-3.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/6.svg', alt='')
 
       .row.justify-content-evenly.mb-5
-        .col-lg-4(data-aos='fade-right')
+        .col-lg-4.col-md-8.mb-4.mb-lg-0(data-aos='fade-right')
           .titulo-sexto.color-acento-contenido
             h5 Figura 4.
             span Factura comercial
           figure
             img(src='@/assets/curso/temas/t1/fig4.png', alt='Factura comercial con detalles de la compra, incluyendo descripción de los artículos, cantidades, precios unitarios e importes.')
-        .col-lg-4(data-aos='fade-left')
-          .titulo-sexto.color-acento-contenido
+        .col-lg-4.col-md-8(data-aos='fade-left')
+          .titulo-sexto.color-acento-contenido.mb-0.mb-lg-2
             h5 Figura 5.
             span Modelo de factura comercial
           figure
@@ -165,7 +165,7 @@
               li.mb-0 
                 i.fas.fa-map-marker-alt
                 span.mb-0 #[b Referencia y cantidad de producto entregado:] detalle específico de los productos entregados, con sus respectivas cantidades.
-          .col-lg-3
+          .col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/7.svg', alt='')
           .col-lg-4
             p.fw-bold Si es externa:
@@ -185,13 +185,13 @@
             p.mb-0 No es obligatorio que el documento incluya el logo de la empresa; la decisión de utilizar formatos específicos queda a criterio de la empresa, lo fundamental es que, durante la negociación, se establezcan claramente las condiciones de entrega y que el documento cuente con las firmas y sellos correspondientes para que sea válido.
 
       .row.justify-content-evenly.mb-5
-        .col-lg-4(data-aos='fade-right')
+        .col-lg-4.col-md-8.mb-4.mb-lg-0(data-aos='fade-right')
           .titulo-sexto.color-acento-contenido
             h5 Figura 6.
             span Orden de remisión
           figure
             img(src='@/assets/curso/temas/t1/fig6.png', alt='Formulario de orden de remisión con campos para información del remitente, destinatario, descripción de los artículos y firmas.')
-        .col-lg-4(data-aos='fade-left')
+        .col-lg-4.col-md-8(data-aos='fade-left')
           .titulo-sexto.color-acento-contenido.mb-0
             h5 Figura 7.
             span Nota de remisión
@@ -208,10 +208,10 @@
           p.mb-0 El #[em picking] es el proceso de selección y preparación de las unidades que serán despachadas, el listado de picking es un documento que detalla las ubicaciones y las cantidades de las referencias que deben ser alistadas para su posterior despacho, una vez que se cuenta con este listado, se procede a recoger los productos para trasladarlos a la zona de consolidación.
 
       .row.d-flex.mb-5(data-aos="fade-down")
-        .col-lg-4
+        .col-lg-4.d-none.d-lg-block
           .bg-sub.h-100.align-items-center.d-flex
             img(src='@/assets/curso/temas/t1/8.png', alt='')
-        .col-lg-4.ps-lg-0
+        .col-lg-4.ps-lg-0.mb-4.mb-lg-0
           .bg3.h-100
             ul.lista-ul--color.color-primario.fa-lista.p-3.p-lg-4.mb-0
               li.mb-1
@@ -226,7 +226,7 @@
               li.mb-0
                 i.fas.fa-map-marker-alt
                 span.mb-0 Facilita el alistamiento de pedidos realizados a través de internet, optimizando el proceso de preparación y despacho.
-        .col-lg-4
+        .col-lg-4.col-md-8
           .bg-white.h-100
             .titulo-sexto.color-acento-contenido.mb-1
               h5 Figura 8.
@@ -262,21 +262,21 @@
             .row.justify-content-center(titulo="Liquidar la devolución")
               .col-lg-11
                 p una vez completados los pasos anteriores, se procede a realizar la liquidación de la devolución, asegurando que todo esté debidamente registrado y procesado.
-        .col-lg-3(data-aos="fade-left")
+        .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
           img(src='@/assets/curso/temas/t1/9.png', alt='')
 
       .row.justify-content-center.mb-5(data-aos="fade-down")
         .col-lg-10
           .bg1.tarjeta.p-4
             .row.justify-content-center.align-items-center
-              .col-lg-6
+              .col-lg-6.mb-3.mb-lg-0
                 .titulo-sexto.color-acento-contenido.mb-2
                   h5 Figura 9. 
                   span Devoluciones de compra 
                 figure
                   img(src='@/assets/curso/temas/t1/fig9.png', alt='Informe de devoluciones de compra con detalles de proveedores, obras, artículos, cantidades y montos.')  
               .col-lg-6
-                img.w-90.mb-2(src='@/assets/curso/temas/t1/10.svg', alt='')
+                img.w-90.mb-2.d-none.d-lg-block(src='@/assets/curso/temas/t1/10.svg', alt='')
                 p La devolución de mercancías es un proceso que requiere gran cuidado y precisión, y es responsabilidad de quien la recibe; un error en este proceso puede generar inconvenientes en el inventario y, aún más grave, errores contables que alteren los estados financieros de la empresa.
 
 
@@ -312,17 +312,17 @@
             li.mb-0
               i.fas.fa-map-marker-alt
               span.mb-0 Observaciones generales.
-        .col-lg-4(data-aos="fade-left")
+        .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
           img(src='@/assets/curso/temas/t1/12.png', alt='')
 
       .row.justify-content-evenly.mb-5
-        .col-lg-4(data-aos='fade-right')
+        .col-lg-4.col-md-8(data-aos='fade-right')
           .titulo-sexto.color-acento-contenido
             h5 Figura 10.
             span Formato orden de despacho
           figure
             img(src='@/assets/curso/temas/t1/fig10.png', alt='Orden de despacho de la empresa de transportes Segucar S.A. con detalles del destinatario, artículos despachados y datos del transportista.')
-        .col-lg-5(data-aos='fade-left')
+        .col-lg-5.col-md-9(data-aos='fade-left')
           .titulo-sexto.color-acento-contenido.mb-0
             h5 Figura 11.
             span Orden de salida 
