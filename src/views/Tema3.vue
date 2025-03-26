@@ -58,7 +58,7 @@
             p.text-center.mb-0 Proporcionan visibilidad sobre el movimiento de la mercancía, mejorando la gestión logística.
 
 
-    TabsA.color-acento-botones(data-aos="fade-down")
+    TabsA.color-acento-botones.t3-tabs.mb-5(data-aos="fade-down")
       .tarjeta.bg2.p-4.px-lg-5(titulo="Procedimiento de registros")
         h4 Procedimiento de registros
         p Existen tres tipos de procedimientos para el registro de objetos, los cuales están relacionados con la gestión de inventarios, adquisiciones, devoluciones y despachos de mercancías.
@@ -113,13 +113,15 @@
           li 
             i.fas.fa-map-marker-alt
             span.mb-0 Ventas (despachos).
-        p.mb-4 Cualquier procedimiento que se utilice, está determinado por las organizaciones y sus sistemas de información, realizar adecuadamente el registro de los ingresos y salidas permite fiabilidad y confiabilidad en el conocimiento del estado financiero de las empresas.
-        .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 12. 
-          span Procedimiento de registro de entrada
-        .row.col-lg-8
-          figure
-            img(src='@/assets/curso/temas/t3/fig12.png', alt='Ventana de software para el registro de entrada de documentos, mostrando campos para número y fecha de registro, origen, destino, tipo de transporte y resumen.')  
+      
+    p.mb-4 Cualquier procedimiento que se utilice, está determinado por las organizaciones y sus sistemas de información, realizar adecuadamente el registro de los ingresos y salidas permite fiabilidad y confiabilidad en el conocimiento del estado financiero de las empresas.
+    
+    .titulo-sexto.color-acento-contenido.mb-2
+      h5 Figura 12. 
+      span Procedimiento de registro de entrada
+    .row.col-lg-4
+      figure
+        img(src='@/assets/curso/temas/t3/fig12.png', alt='Ventana de software para el registro de entrada de documentos, mostrando campos para número y fecha de registro, origen, destino, tipo de transporte y resumen.')  
 
 
 </template>

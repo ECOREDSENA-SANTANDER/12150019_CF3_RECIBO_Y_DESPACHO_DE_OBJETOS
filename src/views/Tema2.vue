@@ -13,8 +13,8 @@
       .col-lg-8
         .p-4
           p Las políticas son los lineamientos establecidos en las organizaciones para guiar el desarrollo de actividades específicas, estas políticas aseguran que todas las personas dentro de la organización realicen sus tareas de manera uniforme y coherente. Por esta razón, durante el proceso de inducción, se entregarán las políticas correspondientes al puesto de trabajo, dependiendo de las funciones que cada persona desempeñará.
-          h4.bg-color-acento-contenido.p-2 Concepto:
-          p Las políticas empresariales son normas que orientan y alinean los objetivos de la empresa; Las políticas de ingreso y salida de objetos son los lineamientos que regulan el proceso de recepción y despacho de mercancías, asegurando que se realicen de manera eficiente, precisa y oportuna. 
+          .tarjeta.bg-color-acento-contenido.p-2.p-md-3.px-lg-4.bx-shadow
+            p.mb-0 #[strong Concepto:] las políticas empresariales son normas que orientan y alinean los objetivos de la empresa; Las políticas de ingreso y salida de objetos son los lineamientos que regulan el proceso de recepción y despacho de mercancías, asegurando que se realicen de manera eficiente, precisa y oportuna. 
 
     h4(data-aos="fade-right") Características
 
@@ -114,34 +114,6 @@
                   ul.lista-ul--color.fa-lista
                     li.mb-1 
                       i.fas.fa-map-marker-alt
-                      span.mb-0 Recepción de documentos como facturas, listas de empaque u orden de salida.
-                    li.mb-1 
-                      i.fas.fa-map-marker-alt
-                      span.mb-0 Realizar la lista #[em picking].
-                    li.mb-1 
-                      i.fas.fa-map-marker-alt
-                      span.mb-0 Hacer el picking #[em picking].
-                    li.mb-1 
-                      i.fas.fa-map-marker-alt
-                      span.mb-0 Rotular la mercancía, de tal manera que se identifique el pedido antes de ser cargado y despachado.
-                    li.mb-1 
-                      i.fas.fa-map-marker-alt
-                      span.mb-0 Verificación de la mercancía, es importante que antes de realizar el cargue de la mercancía se realice una nueva inspección y verificación.
-                    li.mb-1 
-                      i.fas.fa-map-marker-alt
-                      span.mb-0 Revisión de la documentación antes de ser entregada con la mercancía, facturas, lista de empaque.
-                    li.mb-1 
-                      i.fas.fa-map-marker-alt
-                      span.mb-0 Entrega de mercancía y cargue.
-                    li.mb-1 
-                      i.fas.fa-map-marker-alt
-                      span.mb-0 Firma y entrega de documentación.
-                .row(titulo="B. Procedimiento despacho de objetos")
-                  p Al igual que el recibo, el responsable de las actividades de despacho es el auxiliar de bodega, el almacenista, el coordinador de almacén, coordinador logístico, por nombrar algunos cargos.
-                  p El procedimiento a nivel general es:
-                  ul.lista-ul--color.fa-lista
-                    li.mb-1 
-                      i.fas.fa-map-marker-alt
                       span.mb-0 Solicitar documentos del material, materia prima, insumo o producto.
                     li.mb-1 
                       i.fas.fa-map-marker-alt
@@ -164,7 +136,34 @@
                     li.mb-1 
                       i.fas.fa-map-marker-alt
                       span.mb-0 Entregar los documentos recibidos con la firma de la aceptación de cantidades y referencias, al departamento contable para dar inicio a los tramites administrativos y financieros.
-
+                .row(titulo="B. Procedimiento despacho de objetos")
+                  p Al igual que el recibo, el responsable de las actividades de despacho es el auxiliar de bodega, el almacenista, el coordinador de almacén, coordinador logístico, por nombrar algunos cargos.
+                  p El procedimiento a nivel general es:
+                  ul.lista-ul--color.fa-lista
+                    li.mb-1 
+                      i.fas.fa-map-marker-alt
+                      span.mb-0 Recepción de documentos como facturas, listas de empaque u orden de salida.
+                    li.mb-1 
+                      i.fas.fa-map-marker-alt
+                      span.mb-0 Realizar la lista #[em picking].
+                    li.mb-1 
+                      i.fas.fa-map-marker-alt
+                      span.mb-0 Hacer el picking #[em picking].
+                    li.mb-1 
+                      i.fas.fa-map-marker-alt
+                      span.mb-0 Rotular la mercancía, de tal manera que se identifique el pedido antes de ser cargado y despachado.
+                    li.mb-1 
+                      i.fas.fa-map-marker-alt
+                      span.mb-0 Verificación de la mercancía, es importante que antes de realizar el cargue de la mercancía se realice una nueva inspección y verificación.
+                    li.mb-1 
+                      i.fas.fa-map-marker-alt
+                      span.mb-0 Revisión de la documentación antes de ser entregada con la mercancía, facturas, lista de empaque.
+                    li.mb-1 
+                      i.fas.fa-map-marker-alt
+                      span.mb-0 Entrega de mercancía y cargue.
+                    li.mb-1 
+                      i.fas.fa-map-marker-alt
+                      span.mb-0 Firma y entrega de documentación.
 
 
         

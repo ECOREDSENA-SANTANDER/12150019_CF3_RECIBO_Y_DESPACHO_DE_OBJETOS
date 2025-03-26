@@ -96,7 +96,7 @@ export default {
   complementario: [
     {
       tema:
-        'Diseño del sistema de gestión por procesos para la empresa diseño, ingeniería, automatización y control dinacol S.A.S. ',
+        'Diseño del sistema de gestión por procesos para la empresa diseño, ingeniería, automatización y control Dinacol S.A.S. ',
       referencia:
         'Pineda, G. R., & Burbano Ortiz, A. M. (2018). Diseño del sistema de gestión por procesos para la empresa Diseño, Ingeniería, Automatización y Control Dinacol S.A.S. [Archivo PDF]. Universidad del Valle.  ',
       tipo: 'PDF',
@@ -139,11 +139,6 @@ export default {
       termino: 'Diligenciamiento ',
       significado:
         'acción de completar correctamente los documentos necesarios para los procesos de recibo y despacho. ',
-    },
-    {
-      termino: 'Documentación',
-      significado:
-        'proceso continuo de formación del personal para asegurar que esté preparado para brindar una atención adecuada y resolver eficazmente quejas y reclamos. ',
     },
     {
       termino: 'Condiciones',
@@ -220,7 +215,7 @@ export default {
     },
     {
       referencia:
-        'Pazan Toledo, T. M. (2015). Diseño de modelo de reingeniería al control de inventario y manejo de bodega aplicado a la corporación Farmasocio. Tesis, Universidad del Azuay, Ecuador. Recuperado el 27 de noviembre de 2016 en ',
+        'Pazan Toledo, T. M. (2015). Diseño de modelo de reingeniería al control de inventario y manejo de bodega aplicado a la Corporación Farmasocio. Tesis, Universidad del Azuay, Ecuador. Recuperado el 27 de noviembre de 2016 en ',
       link: 'http://dspace.uazuay.edu.ec/bitstream/datos/5026/1/11465.pdf',
     },
   ],
@@ -230,12 +225,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -245,7 +240,7 @@ export default {
       autores: [
         {
           nombre: 'Ingrid Criollo García',
-          cargo: 'Experto Temático',
+          cargo: 'Experta temática',
           centro: 'Centro de Comercio y Servicio - Regional Tolima',
         },
         {
@@ -256,7 +251,7 @@ export default {
         },
         {
           nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -266,7 +261,7 @@ export default {
       autores: [
         {
           nombre: 'Yuly Andrea Rey Quiñonez',
-          cargo: 'Diseñadora de Contenidos Digitales',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -275,8 +270,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -285,8 +280,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Yineth Ibette González Quintero',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

@@ -30,7 +30,7 @@
           p.mb-0 La requisición es un documento interno utilizado dentro de la empresa para solicitar, por escrito, la adquisición de productos u objetos, este documento puede emplearse entre diferentes áreas, por ejemplo, para el traslado de mercancías de un lugar a otro, o para solicitar al departamento de compras la gestión de adquisición de bienes. 
       
       .bg3.p-4.py-5.mb-4(data-aos='fade-down')
-        p.fw-bold La requisición debe incluir la siguiente información:
+        p La requisición debe incluir la siguiente información:
         .row.justify-content-center.align-items-center
           .col-lg-5
             ul.lista-ul--color.fa-lista
@@ -109,7 +109,7 @@
             h5 Figura 3.
             span Formato orden de compra
           figure
-            img(src='@/assets/curso/temas/t1/fig3.png', alt='Formulario de requisición de materiales para construcción con campos para información de la empresa, número de requisición, fecha, datos del solicitante, materiales solicitados, cantidades y costos.')
+            img(src='@/assets/curso/temas/t1/fig3.png', alt='Orden de compra del ISSS con detalles del oferente, descripción del servicio, precios unitarios y totales, y firmas.')
 
       .subt-2.px-5.py-1.mb-4(data-aos='fade')
         h4.mb-0 Factura comercial
@@ -151,7 +151,7 @@
       .bg3.p-4.mb-4(data-aos='fade-down')
         .row.justify-content-center
           .col-lg-5
-            p.fw-bold La remisión o nota de remisión debe incluir la siguiente información en el caso de ser una entrega interna:
+            p La remisión o nota de remisión debe incluir la siguiente información en el caso de ser una entrega interna:
             ul.lista-ul--color.fa-lista
               li.mb-1 
                 i.fas.fa-map-marker-alt
@@ -168,7 +168,7 @@
           .col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/7.svg', alt='')
           .col-lg-4
-            p.fw-bold Si es externa:
+            p Si es externa:
             ul.lista-ul--color.fa-lista
               li.mb-1 
                 i.fas.fa-map-marker-alt
@@ -181,8 +181,9 @@
                 span.mb-0 #[b Información:] referencia del producto y cantidad.
               li.mb-0 
                 i.fas.fa-map-marker-alt
-                span.mb-0 #[b Fecha de entrega del producto.] 
-            p.mb-0 No es obligatorio que el documento incluya el logo de la empresa; la decisión de utilizar formatos específicos queda a criterio de la empresa, lo fundamental es que, durante la negociación, se establezcan claramente las condiciones de entrega y que el documento cuente con las firmas y sellos correspondientes para que sea válido.
+                span.mb-0 Fecha de entrega del producto.
+      
+      p.mb-4 No es obligatorio que el documento incluya el logo de la empresa; la decisión de utilizar formatos específicos queda a criterio de la empresa, lo fundamental es que, durante la negociación, se establezcan claramente las condiciones de entrega y que el documento cuente con las firmas y sellos correspondientes para que sea válido.
 
       .row.justify-content-evenly.mb-5
         .col-lg-4.col-md-8.mb-4.mb-lg-0(data-aos='fade-right')
@@ -199,21 +200,22 @@
             img(src='@/assets/curso/temas/t1/fig7.png', alt='Formulario de nota de remisión duplicado con campos para información del remitente, destinatario, descripción de los artículos, precios y firmas.')
 
       .subt-2.px-5.py-1.mb-4(data-aos='fade')
-        h4.mb-0 Listado de #[em Picking]
+        h4.mb-0 Listado de #[em picking]
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-1.col-md-2.col-4.mb-3.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/temas/t1/3.svg', alt='')
         .col-lg-11.col-md-10(data-aos="fade-left")
-          p.mb-0 El #[em picking] es el proceso de selección y preparación de las unidades que serán despachadas, el listado de picking es un documento que detalla las ubicaciones y las cantidades de las referencias que deben ser alistadas para su posterior despacho, una vez que se cuenta con este listado, se procede a recoger los productos para trasladarlos a la zona de consolidación.
+          p.mb-0 El #[em picking] es el proceso de selección y preparación de las unidades que serán despachadas, el listado de #[em picking] es un documento que detalla las ubicaciones y las cantidades de las referencias que deben ser alistadas para su posterior despacho, una vez que se cuenta con este listado, se procede a recoger los productos para trasladarlos a la zona de consolidación.
 
       .row.d-flex.mb-5(data-aos="fade-down")
         .col-lg-4.d-none.d-lg-block
           .bg-sub.h-100.align-items-center.d-flex
             img(src='@/assets/curso/temas/t1/8.png', alt='')
         .col-lg-4.ps-lg-0.mb-4.mb-lg-0
-          .bg3.h-100
-            ul.lista-ul--color.color-primario.fa-lista.p-3.p-lg-4.mb-0
+          .bg3.h-100.p-3.p-lg-4
+            p Las ventajas de implementar esta técnica en el área de despacho son las siguientes:
+            ul.lista-ul--color.color-primario.fa-lista.mb-0
               li.mb-1
                 i.fas.fa-map-marker-alt
                 span.mb-0 Permite automatizar o sistematizar los procesos de alistamiento, mejorando la eficiencia.
@@ -230,7 +232,7 @@
           .bg-white.h-100
             .titulo-sexto.color-acento-contenido.mb-1
               h5 Figura 8.
-              span Listado de #[em Picking]
+              span Listado de #[em picking]
             figure
               img(src='@/assets/curso/temas/t1/fig8.png', alt='Listado de picking con detalles de ubicación, artículos, descripciones, lotes, cantidades y bultos.')
 
@@ -261,7 +263,7 @@
                 p El departamento de calidad debe llevar a cabo un análisis detallado de los productos devueltos para determinar el proceso a seguir, ya sea de reposición, reparación o disposición.
             .row.justify-content-center(titulo="Liquidar la devolución")
               .col-lg-11
-                p una vez completados los pasos anteriores, se procede a realizar la liquidación de la devolución, asegurando que todo esté debidamente registrado y procesado.
+                p Una vez completados los pasos anteriores, se procede a realizar la liquidación de la devolución, asegurando que todo esté debidamente registrado y procesado.
         .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
           img(src='@/assets/curso/temas/t1/9.png', alt='')
 
