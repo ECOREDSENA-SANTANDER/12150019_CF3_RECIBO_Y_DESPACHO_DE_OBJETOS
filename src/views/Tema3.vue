@@ -119,7 +119,7 @@
     .titulo-sexto.color-acento-contenido.mb-2
       h5 Figura 12. 
       span Procedimiento de registro de entrada
-    .row.col-lg-4
+    .row.col-lg-5
       figure
         img(src='@/assets/curso/temas/t3/fig12.png', alt='Ventana de software para el registro de entrada de documentos, mostrando campos para número y fecha de registro, origen, destino, tipo de transporte y resumen.')  
 
