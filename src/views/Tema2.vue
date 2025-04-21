@@ -148,7 +148,7 @@
                       span.mb-0 Realizar la lista #[em picking].
                     li.mb-1 
                       i.fas.fa-map-marker-alt
-                      span.mb-0 Hacer el picking #[em picking].
+                      span.mb-0 Hacer el #[em picking].
                     li.mb-1 
                       i.fas.fa-map-marker-alt
                       span.mb-0 Rotular la mercancía, de tal manera que se identifique el pedido antes de ser cargado y despachado.

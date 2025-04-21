@@ -79,7 +79,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF3_12150019_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -136,7 +136,7 @@ export default {
         'conjunto de hechos, cifras o información que se recopilan y se utilizan para un propósito específico. ',
     },
     {
-      termino: 'Diligenciamiento ',
+      termino: 'Diligenciamiento',
       significado:
         'acción de completar correctamente los documentos necesarios para los procesos de recibo y despacho. ',
     },
