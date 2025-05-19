@@ -102,7 +102,7 @@
             span.mb-0 #[b Ventas (despachos):] registro de los productos despachados a los clientes.
       .tarjeta.bg2.p-4.px-lg-5(titulo="Procedimiento de inventario perpetuo")
         h4 Procedimiento de inventario perpetuo
-        p Este procedimiento es el tradicional, permite conocer el costo del inventario en cualquier momento, lo cual es una herramienta para saber costo de ventas y por lo tanto las utilidades o pérdidas generadas. Las cuentas utilizadas son:
+        p Este procedimiento es el tradicional, permite conocer el costo del inventario en cualquier momento, lo cual es una herramienta para saber costo de ventas y, por lo tanto, las utilidades o pérdidas generadas. Las cuentas utilizadas son:
         ul.lista-ul--color.fa-lista
           li.mb-1 
             i.fas.fa-map-marker-alt

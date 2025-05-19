@@ -75,7 +75,7 @@
             img.w-75(src='@/assets/curso/temas/t1/fig2.png', alt='Formulario de requisición de materiales para construcción con campos para información de la empresa, número de requisición, fecha, datos del solicitante, materiales solicitados, cantidades y costos.')
 
       .subt-2.px-5.py-1.mb-4(data-aos='fade')
-        h4.mb-0 Orden de Compra o Pedido
+        h4.mb-0 Orden de compra o pedido
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-1.col-md-2.col-4.mb-3.mb-lg-0(data-aos="fade-right")
@@ -224,7 +224,7 @@
                 span.mb-0 Reduce los costos de alistamiento y, en general, los costos logísticos, optimizando los recursos.
               li.mb-1
                 i.fas.fa-map-marker-alt
-                span.mb-0 Minimiza los errores en los inventarios, ya que, con el uso de herramientas tecnológicas, al retirar un producto del almacenamiento se actualiza automáticamente el inventario.
+                span.mb-0 Minimiza los errores en los inventarios, ya que, con el uso de herramientas tecnológicas, al retirar un producto del almacenamiento, se actualiza automáticamente el inventario.
               li.mb-0
                 i.fas.fa-map-marker-alt
                 span.mb-0 Facilita el alistamiento de pedidos realizados a través de internet, optimizando el proceso de preparación y despacho.
@@ -291,7 +291,7 @@
             .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
               img.m-auto.w-75(src='@/assets/curso/temas/t1/11.svg', alt='')
             .col-lg-10.col-md-10
-              p.mb-0 Documento que permite el registro de la salida de la mercancía que va a ser despachada ya sea interna o externamente. La información que hace parte de la orden de salida es:
+              p.mb-0 Documento que permite el registro de la salida de la mercancía que va a ser despachada, ya sea interna o externamente. La información que hace parte de la orden de salida es:
           ul.lista-ul--color.color-primario.fa-lista.mb-0
             li.mb-1
               i.fas.fa-map-marker-alt

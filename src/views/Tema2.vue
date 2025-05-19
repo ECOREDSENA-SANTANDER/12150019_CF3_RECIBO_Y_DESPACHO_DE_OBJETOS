@@ -14,7 +14,7 @@
         .p-4
           p Las políticas son los lineamientos establecidos en las organizaciones para guiar el desarrollo de actividades específicas, estas políticas aseguran que todas las personas dentro de la organización realicen sus tareas de manera uniforme y coherente. Por esta razón, durante el proceso de inducción, se entregarán las políticas correspondientes al puesto de trabajo, dependiendo de las funciones que cada persona desempeñará.
           .tarjeta.bg-color-acento-contenido.p-2.p-md-3.px-lg-4.bx-shadow
-            p.mb-0 #[strong Concepto:] las políticas empresariales son normas que orientan y alinean los objetivos de la empresa; Las políticas de ingreso y salida de objetos son los lineamientos que regulan el proceso de recepción y despacho de mercancías, asegurando que se realicen de manera eficiente, precisa y oportuna. 
+            p.mb-0 #[strong Concepto:] las políticas empresariales son normas que orientan y alinean los objetivos de la empresa; las políticas de ingreso y salida de objetos son los lineamientos que regulan el proceso de recepción y despacho de mercancías, asegurando que se realicen de manera eficiente, precisa y oportuna. 
 
     h4(data-aos="fade-right") Características
 
@@ -123,19 +123,19 @@
                       span.mb-0 Verificar la mercancía en cuanto a referencia y cantidades, con relación a la factura.
                     li.mb-1 
                       i.fas.fa-map-marker-alt
-                      span.mb-0 Inspeccionar la mercancía y en caso de ser necesario, realizar la devolución total o parcial. Realizar una devolución debe ir acompañada de un informe donde se especifique la razón de la misma y las condiciones.
+                      span.mb-0 Inspeccionar la mercancía y, en caso de ser necesario, realizar la devolución total o parcial. Realizar una devolución debe ir acompañada de un informe donde se especifique la razón de la misma y las condiciones.
                     li.mb-1 
                       i.fas.fa-map-marker-alt
                       span.mb-0 Rotular la mercancía de acuerdo con sus características y especificaciones.
                     li.mb-1 
                       i.fas.fa-map-marker-alt
-                      span.mb-0 Registrar ingreso de la mercancía de maneral manual o por sistema, de tal manera que ingrese al inventario.
+                      span.mb-0 Registrar ingreso de la mercancía de manera manual o por sistema, de tal manera que ingrese al inventario.
                     li.mb-1 
                       i.fas.fa-map-marker-alt
                       span.mb-0 Autorizar el almacenamiento de la mercancía hacia los espacios asignados.
                     li.mb-1 
                       i.fas.fa-map-marker-alt
-                      span.mb-0 Entregar los documentos recibidos con la firma de la aceptación de cantidades y referencias, al departamento contable para dar inicio a los tramites administrativos y financieros.
+                      span.mb-0 Entregar los documentos recibidos, con la firma de la aceptación de cantidades y referencias, al departamento contable para dar inicio a los trámites administrativos y financieros.
                 .row(titulo="B. Procedimiento despacho de objetos")
                   p Al igual que el recibo, el responsable de las actividades de despacho es el auxiliar de bodega, el almacenista, el coordinador de almacén, coordinador logístico, por nombrar algunos cargos.
                   p El procedimiento a nivel general es:
