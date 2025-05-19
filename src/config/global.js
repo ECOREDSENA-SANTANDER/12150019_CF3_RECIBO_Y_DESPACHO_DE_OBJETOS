@@ -96,7 +96,7 @@ export default {
   complementario: [
     {
       tema:
-        'Diseño del sistema de gestión por procesos para la empresa diseño, ingeniería, automatización y control Dinacol S.A.S. ',
+        'Documentación, recibo y despacho de objetos. Registro de ingreso y salida. ',
       referencia:
         'Pineda, G. R., & Burbano Ortiz, A. M. (2018). Diseño del sistema de gestión por procesos para la empresa Diseño, Ingeniería, Automatización y Control Dinacol S.A.S. [Archivo PDF]. Universidad del Valle.  ',
       tipo: 'PDF',
@@ -104,15 +104,14 @@ export default {
         'https://bibliotecadigital.univalle.edu.co/server/api/core/bitstreams/f7b65f9f-8715-4d42-8205-a560ba01cb54/content',
     },
     {
-      tema:
-        'Todo lo que debes saber de la logística de entregas y sus procesos. ',
+      tema: 'Registro de ingreso y salida. ',
       referencia:
         'Lo que debes saber de la logística de entregas y sus procesos. (2022, 29 marzo). QuadMinds. ',
       tipo: 'Blog',
       link: 'https://www.quadminds.com/blog/logistica-de-entregas/',
     },
     {
-      tema: 'Recibo y despacho mercancías panamericana.wmv.',
+      tema: 'Documentación, recibo y despacho de objetos. ',
       referencia:
         'Nasly Yuranny. (2012, 17 noviembre). Recibo y despacho mercancías panamericana.wmv.',
       tipo: 'Video',

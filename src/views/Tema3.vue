@@ -120,9 +120,9 @@
       h5 Figura 12. 
       span Procedimiento de registro de entrada
     .row.col-lg-5
-      figure
+      figure.mb-3
         img(src='@/assets/curso/temas/t3/fig12.png', alt='Ventana de software para el registro de entrada de documentos, mostrando campos para número y fecha de registro, origen, destino, tipo de transporte y resumen.')  
-
+      figcaption Nota: adaptación SENA.
 
 </template>
 

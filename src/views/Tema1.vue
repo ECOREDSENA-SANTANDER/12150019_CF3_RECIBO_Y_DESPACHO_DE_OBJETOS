@@ -67,12 +67,14 @@
             span Formato de requisición de materiales
           figure
             img(src='@/assets/curso/temas/t1/fig1.png', alt='Formulario de requisición de materiales con campos para información de la empresa, número de requisición, fecha, orden de producción, tipo de material, cantidad, valor unitario y total.')
+          figcaption Nota: adaptación SENA.
         .col-lg-5.col-md-10(data-aos='fade-left')
           .titulo-sexto.color-acento-contenido
             h5 Figura 2.
             span Formato de requisición de materiales para construcción
-          figure
+          figure.mb-4
             img.w-75(src='@/assets/curso/temas/t1/fig2.png', alt='Formulario de requisición de materiales para construcción con campos para información de la empresa, número de requisición, fecha, datos del solicitante, materiales solicitados, cantidades y costos.')
+          figcaption Nota: adaptación SENA.
 
       .subt-2.px-5.py-1.mb-4(data-aos='fade')
         h4.mb-0 Orden de compra o pedido
@@ -108,8 +110,9 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 3.
             span Formato orden de compra
-          figure
+          figure.mb-2
             img(src='@/assets/curso/temas/t1/fig3.png', alt='Orden de compra del ISSS con detalles del oferente, descripción del servicio, precios unitarios y totales, y firmas.')
+          figcaption Nota: adaptación SENA.
 
       .subt-2.px-5.py-1.mb-4(data-aos='fade')
         h4.mb-0 Factura comercial
@@ -132,12 +135,14 @@
             span Factura comercial
           figure
             img(src='@/assets/curso/temas/t1/fig4.png', alt='Factura comercial con detalles de la compra, incluyendo descripción de los artículos, cantidades, precios unitarios e importes.')
+          figcaption Nota: adaptación SENA.  
         .col-lg-4.col-md-8(data-aos='fade-left')
           .titulo-sexto.color-acento-contenido.mb-0.mb-lg-2
             h5 Figura 5.
             span Modelo de factura comercial
           figure
             img(src='@/assets/curso/temas/t1/fig5.png', alt='Modelo de factura comercial con campos para información de la empresa, cliente, descripción de productos, precios y totales.')
+          figcaption Nota: adaptación SENA.  
 
       .subt-2.px-5.py-1.mb-4(data-aos='fade')
         h4.mb-0 Remisión
@@ -190,14 +195,16 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 6.
             span Orden de remisión
-          figure
+          figure.mb-3
             img(src='@/assets/curso/temas/t1/fig6.png', alt='Formulario de orden de remisión con campos para información del remitente, destinatario, descripción de los artículos y firmas.')
+          figcaption Nota: adaptación SENA.
         .col-lg-4.col-md-8(data-aos='fade-left')
           .titulo-sexto.color-acento-contenido.mb-0
             h5 Figura 7.
             span Nota de remisión
           figure
             img(src='@/assets/curso/temas/t1/fig7.png', alt='Formulario de nota de remisión duplicado con campos para información del remitente, destinatario, descripción de los artículos, precios y firmas.')
+          figcaption Nota: adaptación SENA.
 
       .subt-2.px-5.py-1.mb-4(data-aos='fade')
         h4.mb-0 Listado de #[em picking]
@@ -233,8 +240,9 @@
             .titulo-sexto.color-acento-contenido.mb-1
               h5 Figura 8.
               span Listado de #[em picking]
-            figure
+            figure.mb-3
               img(src='@/assets/curso/temas/t1/fig8.png', alt='Listado de picking con detalles de ubicación, artículos, descripciones, lotes, cantidades y bultos.')
+            figcaption Nota: adaptación SENA.
 
 
       .subt-2.px-5.py-1.mb-4(data-aos='fade')
@@ -277,6 +285,7 @@
                   span Devoluciones de compra 
                 figure
                   img(src='@/assets/curso/temas/t1/fig9.png', alt='Informe de devoluciones de compra con detalles de proveedores, obras, artículos, cantidades y montos.')  
+                figcaption Nota: adaptación SENA.
               .col-lg-6
                 img.w-90.mb-2.d-none.d-lg-block(src='@/assets/curso/temas/t1/10.svg', alt='')
                 p La devolución de mercancías es un proceso que requiere gran cuidado y precisión, y es responsabilidad de quien la recibe; un error en este proceso puede generar inconvenientes en el inventario y, aún más grave, errores contables que alteren los estados financieros de la empresa.
@@ -324,12 +333,14 @@
             span Formato orden de despacho
           figure
             img(src='@/assets/curso/temas/t1/fig10.png', alt='Orden de despacho de la empresa de transportes Segucar S.A. con detalles del destinatario, artículos despachados y datos del transportista.')
+          figcaption Nota: adaptación SENA.
         .col-lg-5.col-md-9(data-aos='fade-left')
           .titulo-sexto.color-acento-contenido.mb-0
             h5 Figura 11.
             span Orden de salida 
-          figure
+          figure.mb-2
             img(src='@/assets/curso/temas/t1/fig11.png', alt='Orden de salida de material con detalles del solicitante, destinatario, descripción del material y cantidades.')
+          figcaption Nota: adaptación SENA.
 
 </template>
 
